@@ -12,8 +12,8 @@ function App() {
     <div className="bg-black min-h-screen">
       <Header />
       <Hero />
-      <CaseStudies />
       <Partnership />
+      <CaseStudies />
       <Comparison />
       <FAQ />
       <CallToAction />
