@@ -60,32 +60,6 @@ export const CaseStudies = () => {
           </p>
         </div>
 
-        {/* Second Video Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[
-            { name: 'H1T1', subscribers: '7.3M+ Subscribers' },
-            { name: 'Danny Reyes', subscribers: '1.7M+ Subscribers' },
-            { name: 'Ange_Cope', subscribers: '6.3M+ Subscribers' }
-          ].map((creator, index) => (
-            <div key={index} className="bg-gray-800 rounded-2xl overflow-hidden">
-              <div className="aspect-[9/16] bg-gray-700 relative flex items-center justify-center">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-gray-500 text-lg">Video Thumbnail</span>
-                </div>
-                <button className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center hover:bg-red-700 transition-colors z-10">
-                  <Play className="w-6 h-6 text-white ml-1" fill="currentColor" />
-                </button>
-              </div>
-              <div className="p-4 flex items-center">
-                <div className="w-10 h-10 bg-gray-600 rounded-full mr-3"></div>
-                <div>
-                  <h3 className="font-semibold text-white">{creator.name}</h3>
-                  <p className="text-gray-400 text-sm">{creator.subscribers}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
