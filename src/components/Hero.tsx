@@ -7,7 +7,7 @@ export function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentWordIndex((prev) => (prev + 1) % words.length);
-    }, 2500);
+    }, 1000);
 
     return () => clearInterval(interval);
   }, []);
