@@ -10,7 +10,7 @@ export function Hero() {
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-          Custom created premium music crafted for enhanced reach, virality, overall quality of your shorts, and generate a completely new revenue stream.
+          Providing unmatched services and opportunities to creators and artists
         </p>
         
         <button className="bg-[#6366f1] hover:bg-[#5855eb] text-white px-12 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-[#6366f1]/25">
