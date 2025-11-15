@@ -25,7 +25,7 @@ export function Partnership() {
               />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">
-              1. We Create Your Sound
+              To Artists
             </h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Custom music will be made by our in house music team, creating copyright-safe tracks for you.
@@ -45,7 +45,7 @@ export function Partnership() {
               />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">
-              2. Add Music as Background
+              To Creators
             </h3>
             <p className="text-gray-400 leading-relaxed">
               You can use our already produced tracks, or your custom produced tracks on Youtube and add it to your videos through the Youtube App when uploading.
@@ -62,7 +62,7 @@ export function Partnership() {
               />
             </div>
             <h3 className="text-xl font-bold text-white mb-4">
-              3. Generate New Revenue
+              To Brands
             </h3>
             <p className="text-gray-400 leading-relaxed">
               Start to reap the rewards immediately as your overall shorts quality will be optimized, and you will start to generate music revenue from your shorts.
