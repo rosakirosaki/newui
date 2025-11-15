@@ -28,3 +28,61 @@
 .animate-word-scroll {
   animation: wordScroll 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+@keyframes glitch {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.glitch-bg {
+  position: relative;
+  background: linear-gradient(
+    270deg,
+    #000000,
+    #0a0a0a,
+    #1a0a1a,
+    #0a0a1a,
+    #0a1a0a,
+    #000000
+  );
+  background-size: 400% 400%;
+  animation: glitch 15s ease infinite;
+}
+
+.glitch-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 2px,
+    rgba(99, 102, 241, 0.03) 2px,
+    rgba(99, 102, 241, 0.03) 4px
+  );
+  pointer-events: none;
+}
+
+.glitch-bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(99, 102, 241, 0.02) 2px,
+    rgba(99, 102, 241, 0.02) 4px
+  );
+  pointer-events: none;
+}
