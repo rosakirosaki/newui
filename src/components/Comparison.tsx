@@ -9,6 +9,9 @@ export function Comparison() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">
             Why choose <span className="italic text-[#6366f1]">us</span>?
           </h2>
+          <p className="text-gray-400 text-lg mt-4">
+            At MediaTiger, the team goes up and beyond to give unique benefits found nowhere else.
+          </p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
