@@ -27,6 +27,12 @@ export function Partnership() {
             <h3 className="text-xl font-bold text-white mb-4">
               To Artists
             </h3>
+            <p className="text-gray-400 mb-6 leading-relaxed">
+              MediaTiger helps with the following<br />
+              &gt;Reach a global audience<br />
+              &gt;Grow your music career<br />
+              &gt;Maximize your earnings
+            </p>
           </div>
           
           {/* Step 2 */}
