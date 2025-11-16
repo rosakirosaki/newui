@@ -10,7 +10,7 @@ export function Partnership() {
             How Our Partnership Works
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Get Started in 3 Simple Steps.
+            MediaTiger helps with the following
           </p>
         </div>
         
