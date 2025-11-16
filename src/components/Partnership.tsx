@@ -27,12 +27,6 @@ export function Partnership() {
             <h3 className="text-xl font-bold text-white mb-4">
               To Artists
             </h3>
-            <p className="text-gray-400 mb-6 leading-relaxed">
-              Custom music will be made by our in house music team, creating copyright-safe tracks for you.
-            </p>
-            <p className="text-gray-400 leading-relaxed">
-              We cover 100% of the costs of music production and registration costs, along with licensing. There is zero cost on your end. This is completely free of charge.
-            </p>
           </div>
           
           {/* Step 2 */}
@@ -47,9 +41,6 @@ export function Partnership() {
             <h3 className="text-xl font-bold text-white mb-4">
               To Creators
             </h3>
-            <p className="text-gray-400 leading-relaxed">
-              You can use our already produced tracks, or your custom produced tracks on Youtube and add it to your videos through the Youtube App when uploading.
-            </p>
           </div>
           
           {/* Step 3 */}
@@ -64,9 +55,6 @@ export function Partnership() {
             <h3 className="text-xl font-bold text-white mb-4">
               To Brands
             </h3>
-            <p className="text-gray-400 leading-relaxed">
-              Start to reap the rewards immediately as your overall shorts quality will be optimized, and you will start to generate music revenue from your shorts.
-            </p>
           </div>
         </div>
       </div>
