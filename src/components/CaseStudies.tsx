@@ -8,8 +8,7 @@ export const CaseStudies = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Case Studies</h2>
           <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-            Why is using high quality background music in your shorts important? Let's take a look at some of our
-            creators who use our music on their shorts.
+            Lets take a look at some of the benefits in detail
           </p>
         </div>
 
