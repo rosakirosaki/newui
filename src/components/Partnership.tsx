@@ -7,7 +7,7 @@ export function Partnership() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            How Our Partnership Works
+            How Our Partnerships Work
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             MediaTiger helps with the following
