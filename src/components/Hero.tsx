@@ -15,7 +15,7 @@ export function Hero() {
   return (
     <main className="min-h-screen bg-black flex items-center justify-center relative overflow-hidden">
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-5xl mx-auto mt-20">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 leading-tight">
           Elevate Your <span className="italic text-[#6366f1] inline-block min-w-[280px] text-left md:text-left text-center animate-word-scroll">{words[currentWordIndex]}</span>
         </h1>
